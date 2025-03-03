@@ -5,11 +5,19 @@ int main() {
      printf("JOGO TABULEIRO BATALHA NAVAL\n");
      
      char linha[10]= {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
+     int coluna[10]= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+     
      for(int j = 0; j < 10; j++) {
-        printf("%c ", linha[j]); 
-
+        printf("%c ", linha[j]);
      }
      
+     printf("\n");
+
+      for(int j = 0; j < 10; j++) {
+        printf("%d\n", coluna[j]); 
+
+     }
+
 
      return 0;
     }
